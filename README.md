@@ -3,7 +3,8 @@ cf-prefix-checker
 
 Checks Coldfusion templates for unused and undeclared cfimport prefixes
 
-h2. Setup
+Setup
+-----
 
 cf-prefix-checker runs in a web browser. You'll need to point your Coldfusion web server environment at cf-prefix-checker's
 folder.
@@ -14,7 +15,8 @@ E.g. in your Apache host configuration file:
 Alias /prefixchecker /path/to/cf-prefix-checker
 ```
 
-h2. Usage
+Usage
+-----
 
 In your browser, enter the address of the host & path that you've configured cf-prefix-checker into.
 
