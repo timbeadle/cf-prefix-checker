@@ -18,12 +18,12 @@ request.violations = request.pc.check(filePath=url.filePath, format=url.format);
 	
 	<cfcase value="xml">
 		<cfwddx action="cfml2wddx" input="#request.violations#" output="request.violationsXML">
-		<cfcontent reset="true" />
+		<cfcontent reset="true" type="text/xml" />
 		<cfoutput>#request.violationsXML#</cfoutput>
 	</cfcase>
 	
 	<cfcase value="json">
-		<cfcontent reset="true" />
+		<cfcontent reset="true" type="application/json" />
 		<cfoutput>#serializeJSON(request.violations)#</cfoutput>
 	</cfcase>
 
