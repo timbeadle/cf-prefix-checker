@@ -152,6 +152,7 @@ component
 		}
 		
 		if (not arrayIsEmpty(fileList)) {
+			// Loop over our file list, checking each file
 			for (var i = 1; i lte arraylen(fileList); i = i + 1) {
 				var fileViolations = checkFile(fileList[i]);
 				if (not arrayIsEmpty(fileViolations)) {
@@ -159,8 +160,6 @@ component
 				}
 			}
 		} 
-		
-		// Loop over our file list, checking each file
 		
 		return violations;
 		
