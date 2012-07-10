@@ -26,3 +26,7 @@ Options are specified in url parameters.
 
 * Format: one of 'dump' (uses cfdump), 'json', 'xml'
 * FilePath: can be the path to a single file, or a folder. If it's a folder, the checker operates recursively. If FilePath is not specified, the test-template.cfm in this project is used
+
+License
+-------
+cf-prefix-checker is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.html).
